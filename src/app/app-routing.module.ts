@@ -11,6 +11,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'precios', component: PreciosComponent},
   {path: 'protegida', component: ProtegidaComponent},
+  {path: 'callback', component: ProtegidaComponent},
   {path: '**', pathMatch:'full',redirectTo: 'home'}
 
 
